@@ -1,0 +1,106 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+#lives {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    padding: 4px;
+    color: rgb(183, 0, 255);
+    font-weight: bold;
+}
+#score {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    padding: 4px;
+    color: green;
+    font-weight: bold;
+}
+#gameover{
+    margin-left: 60vh;
+    margin-right: 100vh;
+    margin-top:15vh;
+    display: none;
+}
+#help {
+    position: absolute;
+    left: 2px;
+    bottom: 20px;
+    padding: 4px;
+    color: white;
+}
+#try{
+    margin-left: 90vh;
+    margin-right: 100vh;
+    margin-top:2vh;
+    border:none;
+    padding:20px;
+    border-radius: 4px;
+    color:white;
+    background-color: green;
+    display: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+#totalscore{
+    position: absolute;
+    margin-left: 80vh;
+    margin-right: 100vh;
+    margin-top:-40vh;
+    color:red;
+    padding: 20px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    white-space: nowrap;
+    opacity: 0.5;
+    display:none;
+}
+
+#level {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    padding: 4px;
+    color: rgb(224, 200, 64);
+    font-weight: bold;
+}
+
+div#volume {
+    position: absolute;
+    margin-left: 3vh;
+    margin-right: 100vh;
+    margin-top:15vh;
+    color: turquoise;
+    font-weight: bold;
+}
+div#panelControl {
+    position: absolute;
+    border: 3px solid rgb(82, 52, 90);
+    margin-left: 3vh;
+    margin-right: 100vh;
+    margin-top:15vh;
+    color: rgb(104, 156, 104);
+    font-weight: bold;
+}
+div#showBallSpeed15 {
+    position: absolute;
+    margin-left: 3vh;
+    margin-right: 100vh;
+    margin-top:9vh;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+div#showBravoUps {
+    position: absolute;
+    margin-left: 3vh;
+    margin-right: 100vh;
+    margin-top:75vh;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+

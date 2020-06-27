@@ -1,0 +1,61 @@
+<html>
+    <head>
+       
+    <title>Bounce Game</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div id='help'>
+            Use arrow keys for moving the ball, before that you have to push the button player1.</br>If you choose a speen under than 15 you get 2 more scores
+        </div>
+
+        <div id='level'>
+            Level: 1
+        </div>
+        <div id='score'>
+            Score:
+        </div>
+        <div id='lives'>
+            Lives:
+        </div>
+        <div id="endgame">
+            <img id="gameover" src="img/gameover.jpeg" style="width:100%;max-width:500px"/>
+            <button id="try">Try again</button>
+            <div id="totalscore">
+                Total Score:
+            </div>
+        </div>
+
+        <div id="panelControl">
+            <button id='startPlayer1'>Player1 </button></br>
+            <button id='startPlayer2' style="display:none">Player2 </button>
+            <p id="hidden" style="display:none">
+          Your Name <input type="text" id="txtPlayer1" value="" /></br>     
+          <input type="text" id="txtPlayer2" value="" style="display:none" /></br></br>
+          <button id='continue'>Continue </button>
+        </p>
+        <p id="showName" style="display:none">By default it is hide</p> </br>
+    </br></br>
+                Ball Speed Control</br>
+                High<input id="ballSpeedControl" type="range"
+                min="5" max="70" step="1" value="70" />Low
+            </br>
+            </br></br>
+                Level Change<input id="levelChange" type="range"
+                min="11" max="25" step="1" value="11" />                
+            </div>  
+            <div id="showBallSpeed15">
+            <p id="ballSpeed15" style="display:none">You got 2 more scores because of your speed</p> 
+        </div>
+        <div id="showBravoUps">
+            <p id="bravoUps" style="display:none">Bravooo</p> 
+        </div>
+        
+        <script src="js/Box2dWeb.min.js"></script>
+        <script src="js/Three.js"></script>
+        <script src="js/keyboard.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/maze.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
